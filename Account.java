@@ -2,6 +2,12 @@ package p2;
 
 public class Account {
 	private int acc_no;
+
+    public Account(int acc_no)
+	{
+		this.acc_no = acc_no;
+	}
+	
 	public int getAcc_no() {
 		return acc_no;
 	}
